@@ -12,6 +12,10 @@
 		9654008F2423517900E2DA6C /* Anagram2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654008E2423517900E2DA6C /* Anagram2.swift */; };
 		965931512424023600097D5A /* Capitalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931502424023600097D5A /* Capitalize.swift */; };
 		965931532424059400097D5A /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931522424059400097D5A /* FizzBuzz.swift */; };
+		9659315524240F3C00097D5A /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315424240F3C00097D5A /* Fibonacci.swift */; };
+		965931572424170400097D5A /* Fibonacci2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931562424170400097D5A /* Fibonacci2.swift */; };
+		9659315924241FE900097D5A /* Pyramid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315824241FE900097D5A /* Pyramid.swift */; };
+		9659315B24242C1F00097D5A /* Pyramid2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315A24242C1F00097D5A /* Pyramid2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +37,10 @@
 		9654008E2423517900E2DA6C /* Anagram2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram2.swift; sourceTree = "<group>"; };
 		965931502424023600097D5A /* Capitalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitalize.swift; sourceTree = "<group>"; };
 		965931522424059400097D5A /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		9659315424240F3C00097D5A /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		965931562424170400097D5A /* Fibonacci2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci2.swift; sourceTree = "<group>"; };
+		9659315824241FE900097D5A /* Pyramid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramid.swift; sourceTree = "<group>"; };
+		9659315A24242C1F00097D5A /* Pyramid2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramid2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,10 @@
 				9654008E2423517900E2DA6C /* Anagram2.swift */,
 				965931502424023600097D5A /* Capitalize.swift */,
 				965931522424059400097D5A /* FizzBuzz.swift */,
+				9659315424240F3C00097D5A /* Fibonacci.swift */,
+				965931562424170400097D5A /* Fibonacci2.swift */,
+				9659315824241FE900097D5A /* Pyramid.swift */,
+				9659315A24242C1F00097D5A /* Pyramid2.swift */,
 			);
 			path = "Algorythm and DataStructure";
 			sourceTree = "<group>";
@@ -132,10 +144,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965931572424170400097D5A /* Fibonacci2.swift in Sources */,
 				965931532424059400097D5A /* FizzBuzz.swift in Sources */,
 				9654008F2423517900E2DA6C /* Anagram2.swift in Sources */,
+				9659315524240F3C00097D5A /* Fibonacci.swift in Sources */,
 				965931512424023600097D5A /* Capitalize.swift in Sources */,
 				965400862423484100E2DA6C /* main.swift in Sources */,
+				9659315924241FE900097D5A /* Pyramid.swift in Sources */,
+				9659315B24242C1F00097D5A /* Pyramid2.swift in Sources */,
 				9654008D2423486E00E2DA6C /* Anagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

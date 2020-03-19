@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww12220\viewh13260\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs32 \cf0 \
+Pyramid 1\
+\
+Create a function that takes an integer as an argument \
+\
+	- find the midpoint of the pyramid\
+		- math.floor ( ( 2 * n  - 1) / 2 )\
+\
+For loop 1\
+ \
+Iterate till i < n \
+	- create an empty string variable called levels\
+	\
+For loop 2 ( inner for loop )\
+	iterate till j < n * 2 - 1\
+\
+		- if midpoint - i <= j && midpoint  + i > = j\
+			levels += \'93#\'94\
+\
+		else \
+			levels += \'93 \'93\
+\
+// before the closure of the outer  loop    \
+		- print levels\
+\
+===========================\
+\
+Recursive Pyramid\
+\
+Create a function passing int argument and initialize rows = 0 and level = \'93\'94 - empty string\
+\
+ - find midpoint \'97 math.floor ( ( 2 * n  - 1) / 2 )\
+\
+// that means the number of levels\
+// is equal to number passed in argument \
+If rows == n\
+	return\
+\
+\
+// that means\
+// reached the max. Number of columns \
+// then go to the next row\
+ \
+If n * 2 - 1 =  level.length\
+	- print level\
+	return recursive function passing the n argument and  add 1 to row\
+\
+If midpoint  - rows <= level.length && midpoint +rows >= level.length\
+	-level += \'93#\'94\
+\
+	else\
+\
+	- level += \'93 \'93\
+\
+// then call pyramid recursive again\
+	recursiveFunction(n, rows, level)\
+}

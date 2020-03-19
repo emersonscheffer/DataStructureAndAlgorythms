@@ -21,3 +21,15 @@ print(captalize(sentence: "the lazy fox"))
 
 print("---... FizzBuzz ...---")
 fizzBuzz(number: 25)
+
+print("---... Iterative Fibonacci ...---")
+print(iterativeFibonacci(2))
+
+print("---... Recursive Fibonacci ...---")
+print(recursiveFibonacci(-7))
+
+print("---... Pyramid 1 ...---")
+pyramid(7)
+
+print("---... Pyramid 2 ...---")
+recursivePyramid(7)
