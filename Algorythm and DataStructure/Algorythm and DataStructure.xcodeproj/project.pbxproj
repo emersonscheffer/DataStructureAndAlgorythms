@@ -11,6 +11,7 @@
 		9654008D2423486E00E2DA6C /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654008C2423486E00E2DA6C /* Anagram.swift */; };
 		9654008F2423517900E2DA6C /* Anagram2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654008E2423517900E2DA6C /* Anagram2.swift */; };
 		965931512424023600097D5A /* Capitalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931502424023600097D5A /* Capitalize.swift */; };
+		965931532424059400097D5A /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931522424059400097D5A /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9654008C2423486E00E2DA6C /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		9654008E2423517900E2DA6C /* Anagram2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram2.swift; sourceTree = "<group>"; };
 		965931502424023600097D5A /* Capitalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitalize.swift; sourceTree = "<group>"; };
+		965931522424059400097D5A /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9654008C2423486E00E2DA6C /* Anagram.swift */,
 				9654008E2423517900E2DA6C /* Anagram2.swift */,
 				965931502424023600097D5A /* Capitalize.swift */,
+				965931522424059400097D5A /* FizzBuzz.swift */,
 			);
 			path = "Algorythm and DataStructure";
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965931532424059400097D5A /* FizzBuzz.swift in Sources */,
 				9654008F2423517900E2DA6C /* Anagram2.swift in Sources */,
 				965931512424023600097D5A /* Capitalize.swift in Sources */,
 				965400862423484100E2DA6C /* main.swift in Sources */,

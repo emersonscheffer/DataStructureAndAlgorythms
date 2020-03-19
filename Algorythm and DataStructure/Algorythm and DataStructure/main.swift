@@ -17,7 +17,7 @@ print("...--- Anagram 2 ---...")
 print(isAnagram2(str1: "bad credit", str2: "debit card"))
 
 print("---... Capitalize 1 ...---")
-
 print(captalize(sentence: "the lazy fox"))
 
-
+print("---... FizzBuzz ...---")
+fizzBuzz(number: 25)
