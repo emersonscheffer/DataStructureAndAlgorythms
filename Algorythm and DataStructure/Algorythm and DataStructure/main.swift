@@ -33,3 +33,14 @@ pyramid(7)
 
 print("---... Pyramid 2 ...---")
 recursivePyramid(7)
+
+
+print("---... Steps 1 ...---")
+steps(5)
+
+print("---... Steps 2 ...---")
+recursiveSteps(5)
+
+
+print("---... Matrix ...---")
+matrix(5)

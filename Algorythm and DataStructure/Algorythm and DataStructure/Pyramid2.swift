@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 func recursivePyramid(_ number: Int, _ rows: Int = 0, level: String = "") -> Void {
     let midpoint = (2 * number - 1) / 2
     var lev = level

@@ -16,6 +16,9 @@
 		965931572424170400097D5A /* Fibonacci2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931562424170400097D5A /* Fibonacci2.swift */; };
 		9659315924241FE900097D5A /* Pyramid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315824241FE900097D5A /* Pyramid.swift */; };
 		9659315B24242C1F00097D5A /* Pyramid2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315A24242C1F00097D5A /* Pyramid2.swift */; };
+		9659315D2424490400097D5A /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315C2424490400097D5A /* Steps.swift */; };
+		9659315F24245E1000097D5A /* Steps2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315E24245E1000097D5A /* Steps2.swift */; };
+		96593161242462FB00097D5A /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96593160242462FB00097D5A /* Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +44,9 @@
 		965931562424170400097D5A /* Fibonacci2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci2.swift; sourceTree = "<group>"; };
 		9659315824241FE900097D5A /* Pyramid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramid.swift; sourceTree = "<group>"; };
 		9659315A24242C1F00097D5A /* Pyramid2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramid2.swift; sourceTree = "<group>"; };
+		9659315C2424490400097D5A /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		9659315E24245E1000097D5A /* Steps2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps2.swift; sourceTree = "<group>"; };
+		96593160242462FB00097D5A /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				965931562424170400097D5A /* Fibonacci2.swift */,
 				9659315824241FE900097D5A /* Pyramid.swift */,
 				9659315A24242C1F00097D5A /* Pyramid2.swift */,
+				9659315C2424490400097D5A /* Steps.swift */,
+				9659315E24245E1000097D5A /* Steps2.swift */,
+				96593160242462FB00097D5A /* Matrix.swift */,
 			);
 			path = "Algorythm and DataStructure";
 			sourceTree = "<group>";
@@ -145,13 +154,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				965931572424170400097D5A /* Fibonacci2.swift in Sources */,
+				9659315D2424490400097D5A /* Steps.swift in Sources */,
 				965931532424059400097D5A /* FizzBuzz.swift in Sources */,
 				9654008F2423517900E2DA6C /* Anagram2.swift in Sources */,
 				9659315524240F3C00097D5A /* Fibonacci.swift in Sources */,
 				965931512424023600097D5A /* Capitalize.swift in Sources */,
 				965400862423484100E2DA6C /* main.swift in Sources */,
 				9659315924241FE900097D5A /* Pyramid.swift in Sources */,
+				96593161242462FB00097D5A /* Matrix.swift in Sources */,
 				9659315B24242C1F00097D5A /* Pyramid2.swift in Sources */,
+				9659315F24245E1000097D5A /* Steps2.swift in Sources */,
 				9654008D2423486E00E2DA6C /* Anagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

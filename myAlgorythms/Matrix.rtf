@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11160\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Create a function that takes an integer as argument\
+\
+	create an empty array called results\
+		\
+	create a for loop to add n numbers of empty arrays into main array\
+\
+	create a counter starting at 1\
+\
+	create a variable start column = 0\
+	create a variable end column =  n - 1 // indicates the last element of the array\
+	create a variable start row = 0\
+	create a variable end row =  n - 1\
+\
+ 	\
+	create a while loop to iterate while startColumn is <= endColumn and startRow is <= endRow\
+	- add 4 sides - 4 \'93for loops\'94 , 1 - top row, 2 - right column, 3 - bottom row, 4 - left column\
+\
+	for top row\
+		- create a loop that i is starColumn and iterate till i is smaller  or equal to endColumn, i++\
+		-  add counter to results array [startRow][ i ]\
+		- counter ++\
+\
+	// after this for loop\
+	startRow ++\
+	// add 1 to row\
+	// it means, go to next line\
+\
+	for right column\
+	 - create a for loop that i is =  startRow and iterates till i is <= endRow, i++\
+	- add counter to results array [ i ] [ endColumn ]\
+	- counter ++\
+	\
+	// after this loop\
+	endColumn - - \
+	//subtract 1 from endColumn\
+	// that means , go to the left 1 column\
+\
+	for bottom row\
+	- create another loop that i is the endColumn and iterate till i > = startColumn, i - - \
+	 - add counter to results array  [ endRow ] [ i ]\
+	- counter ++\
+\
+	// after this loop\
+	endRow - -\
+	// subtract from the row\
+	// meaning go one line up\
+\
+	for start Column -  left Column\
+	- create a loop that i is =. endRow and iterates till i >= startRow, i - - \
+	-  add counter to results array [ i ][ startColumn ]\
+	- counter ++\
+\
+	// after loop\
+	startColumn ++\
+	// meaning goes one to the right\
+\
+	//end while loop\
+\
+\
+Create a for loop to print the arrays to the console\
+\
+	\
+\
+  \
+	 \
+	\
+	 \
+}
