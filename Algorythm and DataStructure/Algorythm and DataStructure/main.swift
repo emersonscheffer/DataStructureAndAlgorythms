@@ -34,13 +34,25 @@ pyramid(7)
 print("---... Pyramid 2 ...---")
 recursivePyramid(7)
 
-
 print("---... Steps 1 ...---")
 steps(5)
 
 print("---... Steps 2 ...---")
 recursiveSteps(5)
 
-
 print("---... Matrix ...---")
 matrix(5)
+
+
+print("---... Stack ...---")
+
+var stack = Stack()
+
+stack.push("Emerson")
+stack.push("Ermiton")
+
+print(stack.peek()!)
+
+print(stack)
+
+print(stack.size())
