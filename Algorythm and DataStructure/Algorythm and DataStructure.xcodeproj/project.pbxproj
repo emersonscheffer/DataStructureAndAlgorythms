@@ -20,6 +20,7 @@
 		9659315F24245E1000097D5A /* Steps2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659315E24245E1000097D5A /* Steps2.swift */; };
 		96593161242462FB00097D5A /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96593160242462FB00097D5A /* Matrix.swift */; };
 		965931632425998D00097D5A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965931622425998D00097D5A /* Stack.swift */; };
+		96E37D812426B0D900F4A158 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E37D802426B0D900F4A158 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		9659315E24245E1000097D5A /* Steps2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps2.swift; sourceTree = "<group>"; };
 		96593160242462FB00097D5A /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		965931622425998D00097D5A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		96E37D802426B0D900F4A158 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				965400852423484100E2DA6C /* main.swift */,
+				96E37D822426B36C00F4A158 /* DSandAlgo */,
+			);
+			path = "Algorythm and DataStructure";
+			sourceTree = "<group>";
+		};
+		96E37D822426B36C00F4A158 /* DSandAlgo */ = {
+			isa = PBXGroup;
+			children = (
 				9654008C2423486E00E2DA6C /* Anagram.swift */,
 				9654008E2423517900E2DA6C /* Anagram2.swift */,
 				965931502424023600097D5A /* Capitalize.swift */,
@@ -94,8 +104,9 @@
 				9659315E24245E1000097D5A /* Steps2.swift */,
 				96593160242462FB00097D5A /* Matrix.swift */,
 				965931622425998D00097D5A /* Stack.swift */,
+				96E37D802426B0D900F4A158 /* Queue.swift */,
 			);
-			path = "Algorythm and DataStructure";
+			path = DSandAlgo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				965931572424170400097D5A /* Fibonacci2.swift in Sources */,
+				96E37D812426B0D900F4A158 /* Queue.swift in Sources */,
 				965931632425998D00097D5A /* Stack.swift in Sources */,
 				9659315D2424490400097D5A /* Steps.swift in Sources */,
 				965931532424059400097D5A /* FizzBuzz.swift in Sources */,
