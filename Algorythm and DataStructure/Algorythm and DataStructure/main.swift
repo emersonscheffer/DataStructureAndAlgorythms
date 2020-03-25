@@ -101,3 +101,77 @@ print(q.peek()!)
 
 print(q.isEmpty())
 
+// MARK: - LinkedList
+
+print("---... LinkedList ...---")
+
+var list = LinkedList()
+
+list.insertFirst("5")
+list.insertFirst("4")
+list.insertFirst("3")
+list.insertFirst("2")
+list.insertFirst("1")
+
+print(list.getAt(1)!.value)
+print(list)
+
+list.removeLast()
+
+print(list)
+
+list.insertLast("7")
+list.insertLast("9")
+list.insertLast("2")
+
+list.insertAt(value: "5", at: 4)
+
+print(list)
+
+print("---... Circular? ...---")
+
+print("is this list circular? \(isCircular(list: list))")
+
+print("---... Find MidPoint ...---")
+
+print("The midpoint of the list is: \(midPoint(list: list)!.value)")
+
+
+
+// MARK: - From Last
+
+print("---... From Last ...---")
+
+print(fromLast(list: list, position: 3)!.value)
+
+
+
+// MARK: - Wiggle Sort
+
+print("---... Wiggle Sort ...---")
+
+var numbers = [3, 5, 2, 1, 6, 4]
+
+print(wiggleSort(nums: &numbers))
+
+
+// MARK: - Palindrome
+
+print("---... Palindrome Permutation ...---")
+
+
+print(palindromePermutation("carerac"))
+
+print(palindromePermutation2("aab"))
+
+
+// MARK: - Fence Paint
+
+print(paintFence(3, 2))
+
+
+// MARK: - Paint House
+
+var houseCosts: Array<Array<Int>>? = [[14, 2, 11], [11, 14, 5], [14, 3, 10]]
+
+print(paintHouse(&houseCosts))
